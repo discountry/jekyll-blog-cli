@@ -1,6 +1,6 @@
 {
 	"name": "jekyll-blog-cli",
-	"version": "0.4.0",
+	"version": "0.5.0",
 	"description": "Generate jekyll post from command line.",
 	"license": "MIT",
 	"repository": "discountry/jekyll-blog-cli",
@@ -9,7 +9,9 @@
 		"email": "331027793@qq.com",
 		"url": "discountry.github.io"
 	},
-	"bin": { "jekyll-blog-cli" : "./cli.js" },
+	"bin": {
+		"jekyll-blog-cli": "./cli.js"
+	},
 	"engines": {
 		"node": ">=6"
 	},
@@ -28,14 +30,14 @@
 		"ink-console": "^1.0.0",
 		"ink-text-input": "^1.1.1",
 		"meow": "^3.7.0",
-		"prop-types": "^15.5.10"
+		"prop-types": "^15.5.10",
+		"import-jsx": "^1.3.0",
+		"babel-plugin-transform-react-jsx": "^6.24.1"
 	},
 	"devDependencies": {
 		"ava": "^0.20.0",
-		"babel-plugin-transform-react-jsx": "^6.24.1",
 		"eslint-config-xo-react": "^0.13.0",
 		"eslint-plugin-react": "^7.1.0",
-		"import-jsx": "^1.2.0",
 		"xo": "^0.18.2"
 	},
 	"ava": {
