@@ -1,6 +1,6 @@
 {
 	"name": "jekyll-blog-cli",
-	"version": "0.5.0",
+	"version": "0.6.0",
 	"description": "Generate jekyll post from command line.",
 	"license": "MIT",
 	"repository": "discountry/jekyll-blog-cli",
@@ -20,7 +20,8 @@
 	},
 	"files": [
 		"cli.js",
-		"ui.js"
+		"ui.js",
+		"greeting.js"
 	],
 	"keywords": [
 		""
