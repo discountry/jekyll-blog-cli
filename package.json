@@ -1,6 +1,6 @@
 {
 	"name": "jekyll-blog-cli",
-	"version": "0.3.0",
+	"version": "0.4.0",
 	"description": "Generate jekyll post from command line.",
 	"license": "MIT",
 	"repository": "discountry/jekyll-blog-cli",
@@ -9,7 +9,7 @@
 		"email": "331027793@qq.com",
 		"url": "discountry.github.io"
 	},
-	"bin": "cli.js",
+	"bin": { "jekyll-blog-cli" : "./cli.js" },
 	"engines": {
 		"node": ">=6"
 	},
