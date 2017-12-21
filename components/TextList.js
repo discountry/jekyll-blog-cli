@@ -7,7 +7,6 @@ const TextList = ({title, categories, tags}) => (
   <div>
       {title && (
         <div>
-          <br/>
           <Text yellow>
             Blog title: {title}
           </Text>
@@ -29,6 +28,7 @@ const TextList = ({title, categories, tags}) => (
           </Text>
         </div>
       )}
+      {(title || categories || tags) && <br/>}
   </div>
 );
 
