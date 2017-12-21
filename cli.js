@@ -5,24 +5,25 @@ const importJsx = require('import-jsx');
 const {h, render} = require('ink');
 const meow = require('meow');
 
-const Greeting = importJsx('./greeting');
+const Greeting = importJsx('./components/Greeting');
 
-const Ui = importJsx('./ui');
+const App = importJsx('./components/App');
 
 const cli = meow(`
 	Usage
 	  $ jekyll-blog-cli [input]
 
 	Options
-	  --name  Lorem ipsum [Default: false]
+	  --open  Open post file after created. [Default: false]
 
 	Examples
 	  $ jekyll-blog-cli
-	  I love Ink
-	  $ jekyll-blog-cli --name=ponies
-	  I love ponies
+	  Your post title: 
+	  $ jekyll-blog-cli --open
+		Your post title: 
+		// This will open the file automatically after created.
 `);
 
 const unmount = render(h(Greeting));
 
-render(h(Ui, {...cli.flags,unmount}));
+render(h(App, {...cli.flags,unmount}));

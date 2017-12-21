@@ -12,6 +12,8 @@ $ npm install --global jekyll-blog-cli
 
 ```js
 $ jekyll-blog-cli // Then follow the command line interactions.
+
+$ jekyll-blog-cli --open // This will open the file automatically after created.
 ```
 
 ## License
