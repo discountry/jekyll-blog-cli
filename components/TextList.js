@@ -8,7 +8,7 @@ const TextList = ({title, categories, tags}) => (
       {title && (
         <div>
           <Text yellow>
-            Blog title: {title}
+            Post title: {title}
           </Text>
         </div>
       )}
@@ -16,7 +16,7 @@ const TextList = ({title, categories, tags}) => (
         <div>
           <br/>
           <Text cyan>
-            Blog category: {`['${categories}']`}
+            Post category: {`['${categories}']`}
           </Text>
         </div>
       )}
@@ -24,11 +24,11 @@ const TextList = ({title, categories, tags}) => (
         <div>
           <br/>
           <Text magenta>
-            Blog tags: {`['${tags.split(',').reduce((prev,next)=>`${prev}','${next}`)}']`}
+            Post tags: {`['${tags.split(',').reduce((prev,next)=>`${prev}','${next}`)}']`}
           </Text>
         </div>
       )}
-      {(title || categories || tags) && <br/>}
+      {(title || categories || tags) && <div><br/><br/></div>}
   </div>
 );
 
