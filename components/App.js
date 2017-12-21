@@ -54,6 +54,7 @@ class App extends Component {
 		return (
 			<div>
 				<QuestionInput description={props.descriptions[state.current]} input={state.input} onInputChange={this.handleInputChange} onInputSubmit={this.handleInputSubmit} />
+				<br/>
 				<TextList {...this.state.results} />
 			</div>
 		);
