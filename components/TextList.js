@@ -11,7 +11,7 @@ const TextList = ({title, categories, tags}) => (
             Blog title: {title}
           </Text>
         </div>
-  a  )}
+      )}
       {categories && (
         <div>
           <br/>
@@ -20,7 +20,7 @@ const TextList = ({title, categories, tags}) => (
           </Text>
         </div>
       )}
- a     {tags && (
+      {tags && (
         <div>
           <br/>
           <Text magenta>
