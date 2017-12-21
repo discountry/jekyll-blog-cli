@@ -16,6 +16,10 @@ $ jekyll-blog-cli // Then follow the command line interactions.
 $ jekyll-blog-cli --open // This will open the file automatically after created.
 ```
 
+## Screenshot
+
+![screenshot](screenshot.png)
+
 ## License
 
 MIT © [discountry](http://discountry.github.io)
