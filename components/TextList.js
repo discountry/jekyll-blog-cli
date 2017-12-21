@@ -11,19 +11,19 @@ const TextList = ({title, categories, tags}) => (
             Blog title: {title}
           </Text>
         </div>
-    )}
+  a  )}
       {categories && (
         <div>
-          <br/> 
-          <Text red>
+          <br/>
+          <Text cyan>
             Blog category: {`['${categories}']`}
           </Text>
         </div>
       )}
-      {tags && (
+ a     {tags && (
         <div>
           <br/>
-          <Text pink>
+          <Text magenta>
             Blog tags: {`['${tags.split(',').reduce((prev,next)=>`${prev}','${next}`)}']`}
           </Text>
         </div>
